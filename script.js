@@ -30,5 +30,19 @@ document.addEventListener('DOMContentLoaded', function () {
           block: 'start'
         });
 
-        // Close mobile nav
+        // Close mobile nav after click
+        if (navList.classList.contains('show')) {
+          navList.classList.remove('show');
+        }
+      }
+    });
+
+  });
+
+  // Console message
+  console.log(
+    'Portfolio script loaded — navigation and smooth scroll active.'
+  );
+
+});
 ```
