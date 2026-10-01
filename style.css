@@ -1,3 +1,4 @@
+```css
 /* ===== General Styling ===== */
 * {
   margin: 0;
@@ -164,6 +165,7 @@ footer {
     transform: translateY(-30px);
     opacity: 0;
   }
+
   to {
     transform: translateY(0);
     opacity: 1;
@@ -176,7 +178,9 @@ footer {
     margin: 1rem;
     padding: 1.5rem;
   }
+
   header h1 {
     font-size: 2rem;
   }
 }
+```
